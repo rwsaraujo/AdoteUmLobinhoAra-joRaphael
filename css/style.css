@@ -179,7 +179,6 @@ p.wolf-age {
 
 footer {
     height: 270px;
-    width: 960px;
     margin: 0 auto;
     background-color: var(--bg-cinza-1);
     display: flex;
