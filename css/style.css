@@ -80,7 +80,7 @@ header ul li a {
 
 /* Seção Valores */
 #valores {
-    background-color: var(--bg-cinza-escuro);
+    background-color: var(--bg-cinza-1);
     height: 625px;
     display: flex;
     flex-direction: column;
@@ -166,6 +166,7 @@ p.wolf-age {
 
 #wolf-example-2 {
     flex-direction: row-reverse;
+    text-align: right;
 }
 
 #wolf-example-1 img {
@@ -174,4 +175,50 @@ p.wolf-age {
 
 #wolf-example-2 img {
     box-shadow: 25px -25px var(--bg-azul-2);
+}
+
+footer {
+    height: 270px;
+    width: 960px;
+    margin: 0 auto;
+    background-color: var(--bg-cinza-1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#map-address-about {
+    display: flex;
+}
+
+#address-about {
+    width: 378px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#address-about ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#address-about ul li {
+    margin-bottom: 25px;
+}
+
+.address-list {
+    display: flex;
+}
+
+.address-list li {
+    margin-left: 15px;
+}
+
+#about button {
+    background-color: var(--bg-amarelo);
+    color: var(--tx-cinza-2);
+    font-size: 25px;
+    line-height: 20px;
 }
