@@ -580,3 +580,31 @@ p.our-wolves-wolf-description {
     height: 60px;
     margin-bottom: 50px;
 }
+
+/* =========================================================
+====================== QUEM SOMOS ==========================
+========================================================= */
+#who-we-are {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+#who-we-are-h2 {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56.25px;
+    height: 56px;
+    margin: 50px 0;
+}
+
+#who-we-are-p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 55%;
+    text-align: center;
+    margin-bottom: 55px;
+}
