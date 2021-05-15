@@ -547,7 +547,7 @@ p.our-wolves-wolf-description {
     height: 40px;
     border-top: none;
     border-right: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--gray-1);
     border-left: none;
 }
 
