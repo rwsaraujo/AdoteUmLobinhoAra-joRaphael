@@ -500,3 +500,83 @@ p.our-wolves-wolf-description {
     margin-left: 40px;
     margin-bottom: 20px;
 }
+
+/* =========================================================
+==================== MOSTRAR LOBINHO =======================
+========================================================= */
+#adopt-wolf {
+    width: 960px;
+    margin: 0 auto;
+    color: black;
+}
+
+#adopt-wolf-picture-name {
+    display: flex;
+    margin: 100px 0 34px;
+}
+
+#adopt-wolf-picture-name img {
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+#adopt-wolf-picture-name h2 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+#adopt-wolf-picture-name p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#adopt-wolf-form label {
+    font-size: 30px;
+    font-weight: 00;
+    line-height: 40.68px;
+}
+
+#adopt-wolf-form-name-age {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#adopt-wolf-form input {
+    width: 100%;
+    height: 40px;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    border-left: none;
+}
+
+#adopt-wolf-form-name input {
+    width: 868px;
+    margin-bottom: 20px;
+}
+
+#adopt-wolf-form-age input {
+    width: 72px;
+}
+
+#adopt-wolf-form-email input {
+    margin-bottom: 50px;
+}
+
+#adopt-wolf-button {
+    display: flex;
+    justify-content: center;
+}
+
+#adopt-wolf-button button {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48.83px;
+    border: none;
+    background-color: var(--blue-3);
+    color: white;
+    width: 209px;
+    height: 60px;
+    margin-bottom: 50px;
+}
