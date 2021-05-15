@@ -11,17 +11,18 @@ header {
     padding-top: 12.64px;
     background-color: var(--bg-azul-1);
     box-sizing: border-box;
+    color: var(--tx-cinza-1);
 }
 
 nav {
-    max-width: 960px;
+    width: 960px;
     margin: 0 auto;
 }
 
 header ul {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 header ul li a {
@@ -162,6 +163,7 @@ header ul li a {
 p.wolf-age {
     font-size: 20px;
     font-weight: 300;
+    margin: 5px 0;
 }
 
 #wolf-example-2 {
@@ -226,4 +228,112 @@ footer {
     color: var(--tx-cinza-2);
     font-size: 25px;
     line-height: 20px;
+}
+
+/* ========================================================= 
+================ PÁGINA NOSSOS LOBINHOS ====================
+========================================================= */
+/* Pesquisa Lobinho */
+.nossos-lobinhos {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.nossos-lobinhos-pesquisa {
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nossos-lobinhos-pesquisa input {
+    width: 808px;
+    height: 47px;
+}
+
+.nossos-lobinhos-pesquisa button {
+    width: 130px;
+    height: 47px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: var(--bg-amarelo);
+}
+
+/* Lista de Lobinhos */
+.nossos-lobinhos-esquerda {
+    color: #000000;
+    display: flex;
+    margin: 50px 0;
+}
+
+.nossos-lobinhos-direita {
+    color: #000000;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 50px 0;
+    text-align: right;
+}
+
+.nossos-lobinhos-direita .nome-idade-adotar {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.nossos-lobinhos-esquerda div img {
+    box-shadow: -25px -25px var(--bg-azul-2);
+}
+
+.nossos-lobinhos-direita div img {
+    box-shadow: 25px -25px var(--bg-azul-2);
+}
+
+.nome-idade-adotar-descricao-esquerda {
+    margin-left: 40px;
+}
+
+.nome-idade-adotar-descricao-direita {
+    margin-right: 40px;
+}
+
+.nome-idade-adotar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nome-idade-adotar button {
+    font-size: 25px;
+    font-weight: 600;
+    background-color: var(--bg-amarelo);
+    color: #ffffff;
+    width: 157px;
+    height: 45.92px;
+}
+
+.nossos-lobinhos h3 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+p.nossos-lobinhos-lobo-descricao {
+    font-size: 24px;
+    font-weight: 400;
+}
+/* Paginação */
+.paginacao {
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.paginacao ul {
+    display: flex;
+    text-align: center;
+}
+
+.paginacao ul li {
+    margin: 0 10px;
 }
