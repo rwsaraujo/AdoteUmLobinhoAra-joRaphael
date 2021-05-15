@@ -228,6 +228,12 @@ footer {
     color: var(--tx-cinza-2);
     font-size: 25px;
     line-height: 20px;
+    border: none;
+    padding: 2px 10px 7px 9px;
+}
+
+#about button:hover {
+    cursor: pointer;
 }
 
 /* ========================================================= 
@@ -257,6 +263,11 @@ footer {
     font-weight: 600;
     color: #ffffff;
     background-color: var(--bg-amarelo);
+    border: none;
+}
+
+.nossos-lobinhos-pesquisa button:hover {
+    cursor: pointer;
 }
 
 /* Lista de Lobinhos */
@@ -308,6 +319,11 @@ footer {
     color: #ffffff;
     width: 157px;
     height: 45.92px;
+    border: none;
+}
+
+.nome-idade-adotar button:hover {
+    cursor: pointer;
 }
 
 .nossos-lobinhos h3 {
