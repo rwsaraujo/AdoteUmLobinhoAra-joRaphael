@@ -33,7 +33,7 @@ header ul li a {
 }
 
 /* Seção Adote um Lobinho */
-#adote-lobinho {
+#index-adopt-wolf {
     background-image: url(../assets/image.png);
     background-size: cover;
     height: 500px;
@@ -44,19 +44,19 @@ header ul li a {
     margin: 0 auto;
 }
 
-#adote-lobinho h1 {
+#index-adopt-wolf h1 {
     font-size: 96px;
     font-weight: 700;
     margin-bottom: 50px;
 }
 
-#adote-lobinho p {
+#index-adopt-wolf p {
     font-size: 30px;
     line-height: 25px;
 }
 
-/* Seção Sobre */
-#sobre {
+/* Seção index-about */
+#index-about {
     background-color: var(--bg-azul-2);
     height: 333px;
     display: flex;
@@ -66,21 +66,21 @@ header ul li a {
     margin: 0 auto;
 }
 
-#sobre h2 {
+#index-about h2 {
     font-size: 48px;
     font-weight: 700;
     color: var(--tx-amarelo);
     margin-bottom: 20px;
 }
 
-#sobre p {
+#index-about p {
     font-size: 24px;
     font-weight: 400;
     line-height: 32.54px;
 }
 
-/* Seção Valores */
-#valores {
+/* Seção index-values */
+#index-values {
     background-color: var(--bg-cinza-1);
     height: 625px;
     display: flex;
@@ -89,51 +89,51 @@ header ul li a {
     text-align: center;
 }
 
-#valores div {
+#index-values div {
     margin: 0 auto;
 }
 
-#valores h2 {
+#index-values h2 {
     font-size: 48px;
     font-weight: 700;
     color: var(--tx-amarelo);
     margin-bottom: 40px;
 }
 
-#valores h3 {
+#index-values h3 {
     font-size: 34px;
     margin: 40px 0;
 }
 
-#valores p {
+#index-values p {
     font-size: 26px;
 }
 
-#cada-valor {
+#index-each-value {
     display: flex;
     justify-content: space-around;
 }
 
-#cada-valor div {
+#index-each-value div {
     width: 195px;
     margin: 0 15px;
 }
 
-#cada-valor div img {
+#index-each-value div img {
     background-color: #ffffff;
     border-radius: 50%;
     width: 139px;
 }
 
 /* Seção Lobos Exemplo */
-#lobos-exemplo {
+#index-wolf-example {
     background-color: var(--bg-branco);
     max-width: 960px;
     margin: 0 auto;
     color: #000000;
 }
 
-#lobos-exemplo h2 {
+#index-wolf-example h2 {
     color: var(--tx-amarelo);
     font-size: 49px;
     font-weight: 700;
@@ -223,7 +223,7 @@ footer {
     margin-left: 15px;
 }
 
-#about button {
+#footer-about button {
     background-color: var(--bg-amarelo);
     color: var(--tx-cinza-2);
     font-size: 25px;
@@ -232,7 +232,7 @@ footer {
     padding: 2px 10px 7px 9px;
 }
 
-#about button:hover {
+#footer-about button:hover {
     cursor: pointer;
 }
 
@@ -240,23 +240,23 @@ footer {
 ================ PÁGINA NOSSOS LOBINHOS ====================
 ========================================================= */
 /* Pesquisa Lobinho */
-.nossos-lobinhos {
+.our-wolves {
     width: 960px;
     margin: 0 auto;
 }
 
-.nossos-lobinhos-pesquisa {
+.our-wolves-search {
     margin: 40px 0;
     display: flex;
     justify-content: space-between;
 }
 
-.nossos-lobinhos-pesquisa input {
+.our-wolves-search input {
     width: 808px;
     height: 47px;
 }
 
-.nossos-lobinhos-pesquisa button {
+.our-wolves-search button {
     width: 130px;
     height: 47px;
     font-size: 25px;
@@ -266,18 +266,18 @@ footer {
     border: none;
 }
 
-.nossos-lobinhos-pesquisa button:hover {
+.our-wolves-search button:hover {
     cursor: pointer;
 }
 
 /* Lista de Lobinhos */
-.nossos-lobinhos-esquerda {
+.our-wolves-left {
     color: #000000;
     display: flex;
     margin: 50px 0;
 }
 
-.nossos-lobinhos-direita {
+.our-wolves-right {
     color: #000000;
     display: flex;
     flex-direction: row-reverse;
@@ -285,34 +285,34 @@ footer {
     text-align: right;
 }
 
-.nossos-lobinhos-direita .nome-idade-adotar {
+.our-wolves-right .name-age-adopt {
     display: flex;
     flex-direction: row-reverse;
 }
 
-.nossos-lobinhos-esquerda div img {
+.our-wolves-left div img {
     box-shadow: -25px -25px var(--bg-azul-2);
 }
 
-.nossos-lobinhos-direita div img {
+.our-wolves-right div img {
     box-shadow: 25px -25px var(--bg-azul-2);
 }
 
-.nome-idade-adotar-descricao-esquerda {
+.name-age-adopt-description-left {
     margin-left: 40px;
 }
 
-.nome-idade-adotar-descricao-direita {
+.name-age-adopt-description-right {
     margin-right: 40px;
 }
 
-.nome-idade-adotar {
+.name-age-adopt {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nome-idade-adotar button {
+.name-age-adopt button {
     font-size: 25px;
     font-weight: 600;
     background-color: var(--bg-amarelo);
@@ -322,36 +322,36 @@ footer {
     border: none;
 }
 
-.nome-idade-adotar button:hover {
+.name-age-adopt button:hover {
     cursor: pointer;
 }
 
-.nossos-lobinhos h3 {
+.our-wolves h3 {
     font-size: 36px;
     font-weight: 700;
 }
 
-p.nossos-lobinhos-lobo-descricao {
+p.our-wolves-wolf-description {
     font-size: 24px;
     font-weight: 400;
 }
 /* Paginação */
-.paginacao {
+.pagination {
     display: flex;
     justify-content: center;
     margin: 30px 0;
 }
 
-.paginacao ul {
+.pagination ul {
     display: flex;
     text-align: center;
 }
 
-.paginacao ul li {
+.pagination ul li {
     margin: 0 10px;
 }
 
-.paginacao ul a  {
+.pagination ul a  {
     text-decoration: none;
     color: #000000;
     font-size: 18px;
