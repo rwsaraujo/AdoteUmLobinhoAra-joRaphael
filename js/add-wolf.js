@@ -1,19 +1,4 @@
-// GET PARA A API
 const url = "https://lobinhos.herokuapp.com/wolves/"
-/*
-fetch(url)
-.then(resp => resp.json())
-.then(resp => {console.log(resp)})
-.catch(err => console.log(err))
-
-fetch(url+"/18")
-.then(resp => resp.json())
-.then(resp => {console.log(resp)})
-.catch(err => console.log(err))
-*/
-
-// POST PARA A API
-
 let form = document.querySelector("#add-wolf-form")
 
 form.addEventListener("submit", e => {
@@ -39,6 +24,4 @@ form.addEventListener("submit", e => {
     }
 
     fetch(url, fetchConfig)
-    .then(resp => resp.json())
-    .then(resp => console.log(resp))
 })
