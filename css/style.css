@@ -1,11 +1,11 @@
-/* Corpo da página */
+/* ========== Body  ========== */
 body {
     max-width: 1400px;
     margin: 0 auto;
     color: white;
 }
 
-/* Cabeçalho da Página */
+/* ========== Header ========== */
 header {
     height: 130px;
     padding-top: 12.64px;
@@ -32,7 +32,7 @@ header ul li a {
     color: var(--gray-1);
 }
 
-/* Seção Adote um Lobinho */
+/* ========== Section Adopt ========== */
 #index-adopt-wolf {
     background-image: url(../assets/image.png);
     background-size: cover;
@@ -55,7 +55,7 @@ header ul li a {
     line-height: 25px;
 }
 
-/* Seção index-about */
+/* ========== Section About - Home ========== */
 #index-about {
     background-color: var(--blue-2);
     height: 333px;
@@ -79,7 +79,7 @@ header ul li a {
     line-height: 32.54px;
 }
 
-/* Seção index-values */
+/* ========== Section Values ========== */
 #index-values {
     background-color: var(--gray-1);
     height: 625px;
@@ -125,7 +125,7 @@ header ul li a {
     width: 139px;
 }
 
-/* Seção Lobos Exemplo */
+/* ========== Section Wolves Example ========== */
 #index-wolf-example {
     background-color: white;
     max-width: 960px;
@@ -183,7 +183,7 @@ p.wolf-age {
     box-shadow: 30px -30px var(--blue-2);
 }
 
-/* Rodapé */
+/* ========== Footer ========== */
 
 footer {
     background-color: var(--gray-1);
@@ -244,9 +244,9 @@ footer {
 }
 
 /* ========================================================= 
-================ PÁGINA NOSSOS LOBINHOS ====================
+================ PAGE OUR WOLVES ====================
 ========================================================= */
-/* Pesquisa Lobinho */
+/* ========== Search ========== */
 .our-wolves {
     width: 960px;
     margin: 0 auto;
@@ -280,7 +280,7 @@ footer {
     border: 1px solid var(--yellow);
 }
 
-/* Lista de Lobinhos */
+/* ========== Wolves List ========== */
 .our-wolves-left {
     color: black;
     display: flex;
@@ -348,7 +348,7 @@ p.our-wolves-wolf-description {
     font-size: 24px;
     font-weight: 400;
 }
-/* Paginação */
+/* ========== Pagination ========== */
 .pagination {
     display: flex;
     justify-content: center;
@@ -372,7 +372,7 @@ p.our-wolves-wolf-description {
 }
 
 /* ========================================================= 
-=================== ADICIONAR LOBINHO ======================
+========================= ADD WOLF =========================
 ========================================================= */
 #add-wolf-main {
     width: 958px;
@@ -459,7 +459,7 @@ p.our-wolves-wolf-description {
 }
 
 /* ========================================================= 
-==================== MOSTRAR LOBINHO =======================
+========================== SHOW WOLF =======================
 ========================================================= */
 #show-wolf {
     width: 960px;
@@ -536,7 +536,7 @@ p.our-wolves-wolf-description {
 }
 
 /* =========================================================
-==================== ADOTAR LOBINHO =======================
+========================= ADOPT WOLF =======================
 ========================================================= */
 #adopt-wolf {
     width: 960px;
@@ -623,7 +623,7 @@ p.our-wolves-wolf-description {
 } 
 
 /* =========================================================
-====================== QUEM SOMOS ==========================
+====================== WHO WE ARE ==========================
 ========================================================= */
 #who-we-are {
     width: 960px;
