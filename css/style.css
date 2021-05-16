@@ -177,10 +177,14 @@ p.wolf-age {
 
 #wolf-example-1 img {
     box-shadow: -30px -30px var(--blue-2);
+    width: 430px;
+    height: 328px;
 }
 
 #wolf-example-2 img {
     box-shadow: 30px -30px var(--blue-2);
+    width: 430px;
+    height: 328px;
 }
 
 /* ========== Footer ========== */
