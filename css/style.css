@@ -166,6 +166,10 @@ p.wolf-age {
     margin: 5px 0;
 }
 
+#wolf-example-1, #wolf-example-2 {
+    margin: 100px 0;
+}
+
 #wolf-example-2 {
     flex-direction: row-reverse;
     text-align: right;
@@ -234,6 +238,9 @@ footer {
 
 #footer-about button:hover {
     cursor: pointer;
+    color: var(--yellow);
+    background-color: var(--gray-1);
+    border: 1px solid var(--yellow);
 }
 
 /* ========================================================= 
@@ -268,20 +275,23 @@ footer {
 
 .our-wolves-search button:hover {
     cursor: pointer;
+    background-color: white;
+    color: var(--yellow);
+    border: 1px solid var(--yellow);
 }
 
 /* Lista de Lobinhos */
 .our-wolves-left {
     color: black;
     display: flex;
-    margin: 50px 0;
+    margin: 100px 0;
 }
 
 .our-wolves-right {
     color: black;
     display: flex;
     flex-direction: row-reverse;
-    margin: 50px 0;
+    margin: 100px 0;
     text-align: right;
 }
 
@@ -324,6 +334,9 @@ footer {
 
 .name-age-adopt button:hover {
     cursor: pointer;
+    background-color: white;
+    color: var(--yellow);
+    border: 1px solid var(--yellow);
 }
 
 .our-wolves h3 {
@@ -438,6 +451,13 @@ p.our-wolves-wolf-description {
     color: white;
 }
 
+#add-wolf-button button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: var(--blue-2);
+    border: 1px solid var(--blue-2);
+}
+
 /* ========================================================= 
 ==================== MOSTRAR LOBINHO =======================
 ========================================================= */
@@ -489,8 +509,22 @@ p.our-wolves-wolf-description {
     background-color: var(--green);
 }
 
+#show-wolf-adopt button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: var(--green);
+    border: 1px solid var(--green);
+}
+
 #show-wolf-delete button {
     background-color: var(--red);
+}
+
+#show-wolf-delete button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: var(--red);
+    border: 1px solid var(--red);
 }
 
 #show-wolf-description p {
@@ -502,7 +536,7 @@ p.our-wolves-wolf-description {
 }
 
 /* =========================================================
-==================== MOSTRAR LOBINHO =======================
+==================== ADOTAR LOBINHO =======================
 ========================================================= */
 #adopt-wolf {
     width: 960px;
@@ -580,6 +614,13 @@ p.our-wolves-wolf-description {
     height: 60px;
     margin-bottom: 50px;
 }
+
+#adopt-wolf-button button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: var(--blue-2);
+    border: 1px solid var(--blue-2);
+} 
 
 /* =========================================================
 ====================== QUEM SOMOS ==========================
