@@ -306,10 +306,14 @@ footer {
 
 .our-wolves-left div img {
     box-shadow: -30px -30px var(--blue-2);
+    width: 430px;
+    height: 328px;
 }
 
 .our-wolves-right div img {
     box-shadow: 30px -30px var(--blue-2);
+    width: 430px;
+    height: 328px;
 }
 
 .name-age-adopt-description-left {

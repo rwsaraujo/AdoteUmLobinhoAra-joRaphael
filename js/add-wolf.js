@@ -1,6 +1,8 @@
+// Get wolves from API
 const url = "https://lobinhos.herokuapp.com/wolves/"
 let form = document.querySelector("#add-wolf-form")
 
+// Add another wolf to the API list
 form.addEventListener("submit", e => {
     e.preventDefault()
     let wolfName = document.querySelector("#wolf-name").value
