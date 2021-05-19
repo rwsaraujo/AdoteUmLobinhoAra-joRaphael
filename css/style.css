@@ -1,22 +1,58 @@
+/* ========== Geral  ========== */
+* {
+    text-decoration: none;
+}
+
 /* ========== Body  ========== */
 body {
     max-width: 1400px;
-    margin: 0 auto;
     color: white;
+}
+
+/* ========== Container ========== */
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* ========== Titles ========== */
+.title-h1 {
+    font-size: 96px;
+    font-weight: 400;
+}
+
+.title-h2 {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.title-h3 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+/* ========== Texts ========== */
+.text-1 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.text-2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.text-3 {
+    font-size: 32px;
+    font-weight: 400;
 }
 
 /* ========== Header ========== */
 header {
     height: 130px;
-    padding-top: 12.64px;
+    padding: 12px;
     background-color: var(--blue-1);
-    box-sizing: border-box;
     color: var(--gray-1);
-}
-
-nav {
-    width: 960px;
-    margin: 0 auto;
 }
 
 header ul {
@@ -25,62 +61,46 @@ header ul {
     justify-content: space-between;
 }
 
-header ul li a {
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 30px;
+header a {
     color: var(--gray-1);
 }
 
 /* ========== Section Adopt ========== */
-#index-adopt-wolf {
+.index-adopt-wolf {
     background-image: url(../assets/image.png);
     background-size: cover;
     height: 500px;
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     text-align: center;
-    margin: 0 auto;
 }
 
-#index-adopt-wolf h1 {
-    font-size: 96px;
-    font-weight: 700;
+.index-adopt-wolf .title-h1 {
     margin-bottom: 50px;
 }
 
-#index-adopt-wolf p {
-    font-size: 30px;
-    line-height: 25px;
-}
-
-/* ========== Section About - Home ========== */
-#index-about {
+/* ========== Section About ========== */
+.index-about {
     background-color: var(--blue-2);
     height: 333px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin: 0 auto;
 }
 
-#index-about h2 {
-    font-size: 48px;
-    font-weight: 700;
+.index-about h2 {
     color: var(--yellow);
     margin-bottom: 20px;
 }
 
-#index-about p {
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 32.54px;
+.index-about p {
+    line-height: 32px;
 }
 
 /* ========== Section Values ========== */
-#index-values {
+.index-values {
     background-color: var(--gray-1);
     height: 625px;
     display: flex;
@@ -89,54 +109,38 @@ header ul li a {
     text-align: center;
 }
 
-#index-values div {
-    margin: 0 auto;
-}
-
-#index-values h2 {
-    font-size: 48px;
-    font-weight: 700;
+.index-values h2 {
     color: var(--yellow);
     margin-bottom: 40px;
 }
 
-#index-values h3 {
-    font-size: 34px;
+.index-values h3 {
     margin: 40px 0;
 }
 
-#index-values p {
-    font-size: 26px;
-}
-
-#index-each-value {
+.index-each-value {
     display: flex;
     justify-content: space-around;
 }
 
-#index-each-value div {
+.index-each-value div {
     width: 195px;
     margin: 0 15px;
 }
 
-#index-each-value div img {
+.index-each-value div img {
     background-color: white;
     border-radius: 50%;
-    width: 139px;
 }
 
 /* ========== Section Wolves Example ========== */
-#index-wolf-example {
+.index-wolf-example {
     background-color: white;
-    max-width: 960px;
-    margin: 0 auto;
     color: black;
 }
 
-#index-wolf-example h2 {
+.index-wolf-example h2 {
     color: var(--yellow);
-    font-size: 49px;
-    font-weight: 700;
     text-align: center;
     margin: 20px 0 60px 0;
 }
@@ -150,38 +154,26 @@ header ul li a {
     margin: 0 10px;
 }
 
-.wolf-example div h3 {
-    font-size: 36px;
-    font-weight: 700;
-}
-
-.wolf-example p {
-    font-size: 24px;
-    font-weight: 400;
-}
-
 p.wolf-age {
-    font-size: 20px;
-    font-weight: 300;
     margin: 5px 0;
 }
 
-#wolf-example-1, #wolf-example-2 {
+.wolf-example-A, .wolf-example-B {
     margin: 100px 0;
 }
 
-#wolf-example-2 {
+.class-row-reverse {
     flex-direction: row-reverse;
     text-align: right;
 }
 
-#wolf-example-1 img {
+.wolf-img-1 {
     box-shadow: -30px -30px var(--blue-2);
     width: 430px;
     height: 328px;
 }
 
-#wolf-example-2 img {
+.wolf-img-2 {
     box-shadow: 30px -30px var(--blue-2);
     width: 430px;
     height: 328px;
@@ -193,20 +185,18 @@ footer {
     background-color: var(--gray-1);
 }
 
-#footer {
+.footer {
     height: 270px;
-    max-width: 960px;
-    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-#map-address-about {
+.map-address-about {
     display: flex;
 }
 
-#address-about {
+.address-about {
     width: 378px;
     margin-left: 40px;
     display: flex;
@@ -214,12 +204,12 @@ footer {
     justify-content: space-between;
 }
 
-#address-about ul {
+.address-about ul {
     display: flex;
     flex-direction: column;
 }
 
-#address-about ul li {
+.address-about ul li {
     margin-bottom: 25px;
 }
 
@@ -231,16 +221,15 @@ footer {
     margin-left: 15px;
 }
 
-#footer-about button {
+.footer-about button {
     background-color: var(--yellow);
     color: var(--gray-2);
-    font-size: 25px;
     line-height: 20px;
     border: none;
     padding: 2px 10px 7px 9px;
 }
 
-#footer-about button:hover {
+.footer-about button:hover {
     cursor: pointer;
     color: var(--yellow);
     background-color: var(--gray-1);
@@ -251,11 +240,6 @@ footer {
 ================ PAGE OUR WOLVES ====================
 ========================================================= */
 /* ========== Search ========== */
-.our-wolves {
-    width: 960px;
-    margin: 0 auto;
-}
-
 .our-wolves-search {
     margin: 40px 0;
     display: flex;
@@ -270,8 +254,6 @@ footer {
 .our-wolves-search button {
     width: 130px;
     height: 47px;
-    font-size: 25px;
-    font-weight: 600;
     color: white;
     background-color: var(--yellow);
     border: none;
@@ -302,18 +284,6 @@ footer {
 .our-wolves-right .name-age-adopt {
     display: flex;
     flex-direction: row-reverse;
-}
-
-.our-wolves-left div img {
-    box-shadow: -30px -30px var(--blue-2);
-    width: 430px;
-    height: 328px;
-}
-
-.our-wolves-right div img {
-    box-shadow: 30px -30px var(--blue-2);
-    width: 430px;
-    height: 328px;
 }
 
 .name-age-adopt-description-left {
