@@ -353,7 +353,6 @@ p.our-wolves-wolf-description {
 ========================= ADD WOLF =========================
 ========================================================= */
 .add-wolf-main {
-    width: 958px;
     height: 874px;
     margin: 50px auto 112px;
     color: black;
@@ -427,8 +426,6 @@ p.our-wolves-wolf-description {
 ========================== SHOW WOLF =======================
 ========================================================= */
 .show-wolf {
-    width: 960px;
-    margin: 0 auto;
     color: black;
     display: flex;
     flex-direction: column;
@@ -496,45 +493,27 @@ p.our-wolves-wolf-description {
 /* =========================================================
 ========================= ADOPT WOLF =======================
 ========================================================= */
-#adopt-wolf {
-    width: 960px;
-    margin: 0 auto;
+.adopt-wolf {
     color: black;
 }
 
-#adopt-wolf-picture-name {
+.adopt-wolf-picture-name {
     display: flex;
     margin: 100px 0 34px;
 }
 
-#adopt-wolf-picture-name img {
+.adopt-wolf-picture-name img {
     border-radius: 50%;
     margin-right: 50px;
 }
 
-#adopt-wolf-picture-name h2 {
-    font-size: 60px;
-    font-weight: 600;
-}
-
-#adopt-wolf-picture-name p {
-    font-size: 14px;
-    font-weight: 600;
-}
-
-#adopt-wolf-form label {
-    font-size: 30px;
-    font-weight: 00;
-    line-height: 40.68px;
-}
-
-#adopt-wolf-form-name-age {
+.adopt-wolf-form-name-age {
     display: flex;
     justify-content: space-between;
 
 }
 
-#adopt-wolf-form input {
+.adopt-wolf-form input {
     width: 100%;
     height: 40px;
     border-top: none;
@@ -543,28 +522,25 @@ p.our-wolves-wolf-description {
     border-left: none;
 }
 
-#adopt-wolf-form-name input {
+.adopt-wolf-form-name input {
     width: 868px;
     margin-bottom: 20px;
 }
 
-#adopt-wolf-form-age input {
+.adopt-wolf-form-age input {
     width: 72px;
 }
 
-#adopt-wolf-form-email input {
+.adopt-wolf-form-email input {
     margin-bottom: 50px;
 }
 
-#adopt-wolf-button {
+.adopt-wolf-button {
     display: flex;
     justify-content: center;
 }
 
-#adopt-wolf-button button {
-    font-size: 36px;
-    font-weight: 600;
-    line-height: 48.83px;
+.adopt-wolf-button button {
     border: none;
     background-color: var(--blue-3);
     color: white;
@@ -573,7 +549,7 @@ p.our-wolves-wolf-description {
     margin-bottom: 50px;
 }
 
-#adopt-wolf-button button:hover {
+.adopt-wolf-button button:hover {
     cursor: pointer;
     background-color: white;
     color: var(--blue-2);
