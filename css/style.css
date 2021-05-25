@@ -426,7 +426,7 @@ p.our-wolves-wolf-description {
 /* ========================================================= 
 ========================== SHOW WOLF =======================
 ========================================================= */
-#show-wolf {
+.show-wolf {
     width: 960px;
     margin: 0 auto;
     color: black;
@@ -435,34 +435,29 @@ p.our-wolves-wolf-description {
     align-items: center;
 }
 
-#show-wolf-name h2 {
-    font-size: 36px;
-    font-weight: 900;
+.show-wolf-name h2 {
     margin: 50px 0 83px;
 }
 
-#show-wolf-info {
+.show-wolf-info {
     display: flex;
-    /* flex-direction: row; */
 }
 
-#show-wolf-picture-action {
+.show-wolf-picture-action {
     display: flex;
     flex-direction: column;
 }
 
-#show-wolf-picture {
+.show-wolf-picture {
     box-shadow: -30px -30px var(--blue-2);
 }
 
-#show-wolf-action {
+.show-wolf-action {
     display: flex;
     justify-content: space-between;
 }
 
-#show-wolf-action button {
-    font-size: 18px;
-    font-weight: 700;
+.show-wolf-action button {
     border: none;
     width: 180px;
     height: 56px;
@@ -470,34 +465,32 @@ p.our-wolves-wolf-description {
     color: white;
 }
 
-#show-wolf-adopt button {
+.show-wolf-adopt button {
     background-color: var(--green);
 }
 
-#show-wolf-adopt button:hover {
+.show-wolf-adopt button:hover {
     cursor: pointer;
     background-color: white;
     color: var(--green);
     border: 1px solid var(--green);
 }
 
-#show-wolf-delete button {
+.show-wolf-delete button {
     background-color: var(--red);
 }
 
-#show-wolf-delete button:hover {
+.show-wolf-delete button:hover {
     cursor: pointer;
     background-color: white;
     color: var(--red);
     border: 1px solid var(--red);
 }
 
-#show-wolf-description p {
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 20px;
+.show-wolf-description p {
     margin-left: 40px;
     margin-bottom: 20px;
+    line-height: 20px;
 }
 
 /* =========================================================
