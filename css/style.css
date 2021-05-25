@@ -7,6 +7,7 @@
 body {
     max-width: 1400px;
     color: white;
+    margin: 0 auto;
 }
 
 /* ========== Container ========== */
