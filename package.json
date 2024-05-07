@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch css/style.css build/style/style.css --style compressed"
+    "sass": "sass --watch css/style.css css/style-compressed.css --style compressed"
   },
   "author": "rwsaraujo",
   "license": "ISC",
