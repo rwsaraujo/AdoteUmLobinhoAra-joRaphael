@@ -13,185 +13,156 @@
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/965969d691.js" crossorigin="anonymous"></script>
   <!-- CSS -->
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/root.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="./css/style-compressed.css">
   <!-- JS -->
-  <script src="js/index.js" defer></script>
+  <script src="./js/index.js" defer></script>
+  <script src="./js/our-wolves.js" defer></script>
+  <script src="./js/adopt-wolf.js" defer></script>
 </head>
 
-<body>
+<body class="flex column">
   <!-- Header -->
-  <header>
+  <header class="header">
     <nav class="container">
-      <ul>
-        <li><a class="text-3" href="our-wolves.html">Nossos Lobinhos</a></li>
-        <li><a class="text-3" href="index.html"><img src="./assets/adopt-a-wolf-logo.svg"
-              alt="Logo de Adote um Lobinho"></a></li>
-        <li><a class="text-3" href="who-we-are.html">Quem Somos</a></li>
+      <ul class="grid center">
+        <li><a href="./our-wolves.html">Nossos Lobinhos</a></li>
+        <li class="flex center"><a href="./index.html" id="logo"><img src="./assets/adopt-a-wolf-logo.svg"
+              alt="Logo de Adote um Lobinho."></a></li>
+        <li><a href="./who-we-are.html">Quem Somos</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
-    <div class="container">
-      <!-- Search Bar -->
-      <div class="our-wolves-search">
+  <!--   <main>
+    <div>
+      <div>
         <input type="text">
-        <a href="add-wolf.html"><button class="text-3">+ Lobo</button></a>
+        <a href="./add-wolf.html"><button>+ Lobo</button></a>
       </div>
 
       <div>
-        <div class="our-wolves-left">
-          <!-- Wolf Picture -->
+        <div>
           <div>
-            <img id="our-wolves-A-img" class="wolf-img-1" src="./assets/wolf-1.png" alt="">
+            <img src="./assets/wolf-1.png" alt="">
           </div>
 
-          <!-- Wolf Info 1 -->
-          <div class="name-age-adopt-description-left">
-            <div class="name-age-adopt">
-              <div>
-                <h3 id="our-wolves-A-name">Nome do Lobo</h3>
-                <p id="our-wolves-A-age" class="wolf-age">Idade: XX anos</p>
-              </div>
-
-              <!-- Button Adopt -->
-              <div>
-                <a href="show-wolf.html"><button onclick="getId()">Adotar</button></a>
-              </div>
-            </div>
-
-            <!-- Wolf Description -->
+          <div>
             <div>
-              <p id="our-wolves-A-description" class="our-wolves-wolf-description">
-                Não obstante, o surgimento do comércio virtual faz parte de um processo de gerenciamento do levantamento
-                das variáveis envolvidas. Não obstante, o surgimento do comércio virtual faz parte de um processo de
-                gerenciamento do levantamento das variáveis envolvidas.Não obstante, o surgimento do comércio virtual
-                faz parte de um processo de gerenciamento do levantamento das variáveis envolvidas.Não obstante, o
-                surgimento do comércio virtual faz parte de um processo de gerenciamento do levantamento das variáveis
-                envolvidas.
-              </p>
+              <div>
+                <h3>Nome do Lobo</h3>
+                <p>Idade: XX anos</p>
+              </div>
+
+              <div>
+                <a href="./show-wolf.html"><button>Adotar</button></a>
+              </div>
             </div>
 
-            <!-- Wolf ID -->
-            <div id="id-wolf-A" style="display:none"></div>
+            <div>
+              <p>Não obstante, o surgimento do comércio virtual faz parte de um processo de gerenciamento do
+                levantamento das variáveis envolvidas. Não obstante, o surgimento do comércio virtual faz parte de um
+                processo de gerenciamento do levantamento das variáveis envolvidas. Não obstante, o surgimento do
+                comércio virtual faz parte de um processo de gerenciamento do levantamento das variáveis envolvidas.Não
+                obstante, o surgimento do comércio virtual faz parte de um processo de gerenciamento do levantamento das
+                variáveis envolvidas.</p>
+            </div>
+
+            <div></div>
           </div>
         </div>
 
-        <div class="our-wolves-right">
-          <!-- Wolf Picture -->
+        <div>
           <div>
-            <img id="our-wolves-B-img" class="wolf-img-2" src="./assets/wolf-2.png" alt="">
+            <img src="./assets/wolf-2.png" alt="">
           </div>
 
-          <!-- Wolf Info 2 -->
-          <div class="name-age-adopt-description-right">
-            <div class="name-age-adopt">
-              <div>
-                <h3 id="our-wolves-B-name">Nome do Lobo</h3>
-                <p id="our-wolves-B-age" class="wolf-age">Idade: XX anos</p>
-              </div>
-
-              <!-- Button Adopt -->
-              <div>
-                <a href="show-wolf.html"><button>Adotar</button></a>
-              </div>
-            </div>
-
-            <!-- Wolf Description -->
+          <div>
             <div>
-              <p id="our-wolves-B-description" class="our-wolves-wolf-description">
-                Não obstante, o surgimento do comércio virtual faz parte de um processo de gerenciamento do levantamento
-                das variáveis envolvidas. Não obstante, o surgimento do comércio virtual faz parte de um processo de
-                gerenciamento do levantamento das variáveis envolvidas.Não obstante, o surgimento do comércio virtual
-                faz parte de um processo de gerenciamento do levantamento das variáveis envolvidas.Não obstante, o
-                surgimento do comércio virtual faz parte de um processo de gerenciamento do levantamento das variáveis
-                envolvidas.
-              </p>
+              <div>
+                <h3>Nome do Lobo</h3>
+                <p>Idade: XX anos</p>
+              </div>
+
+              <div>
+                <a href="./show-wolf.html"><button>Adotar</button></a>
+              </div>
             </div>
 
-            <!-- Wolf ID -->
-            <div id="id-wolf-B" style="display:none"></div>
+            <div>
+              <p>Não obstante, o surgimento do comércio virtual faz parte de um processo de gerenciamento do
+                levantamento das variáveis envolvidas. Não obstante, o surgimento do comércio virtual faz parte de um
+                processo de gerenciamento do levantamento das variáveis envolvidas.Não obstante, o surgimento do
+                comércio virtual faz parte de um processo de gerenciamento do levantamento das variáveis envolvidas.Não
+                obstante, o surgimento do comércio virtual faz parte de um processo de gerenciamento do levantamento das
+                variáveis envolvidas.</p>
+            </div>
+
+            <div></div>
           </div>
         </div>
 
-        <div class="our-wolves-left">
-          <!-- Wolf Picture -->
+        <div>
           <div>
-            <img id="our-wolves-C-img" class="wolf-img-1" src="./assets/wolf-1.png" alt="">
+            <img src="./assets/wolf-1.png" alt="">
           </div>
 
-          <!-- Wolf Info 3 -->
-          <div class="name-age-adopt-description-left">
-            <div class="name-age-adopt">
+          <div>
+            <div>
               <div>
-                <h3 id="our-wolves-C-name">Nome do Lobo</h3>
-                <p id="our-wolves-C-age" class="wolf-age">Idade: XX anos</p>
+                <h3>Nome do Lobo</h3>
+                <p>Idade: XX anos</p>
               </div>
 
-              <!-- Button Adopt -->
               <div>
-                <a href="show-wolf.html"><button>Adotar</button></a>
+                <a href="./show-wolf.html"><button>Adotar</button></a>
               </div>
             </div>
 
-            <!-- Wolf Description -->
             <div>
-              <p id="our-wolves-C-description" class="our-wolves-wolf-description">
-                Não obstante, o surgimento do comércio virtual faz parte de um processo de gerenciamento do levantamento
-                das variáveis envolvidas. Não obstante, o surgimento do comércio virtual faz parte de um processo de
-                gerenciamento do levantamento das variáveis envolvidas.Não obstante, o surgimento do comércio virtual
-                faz parte de um processo de gerenciamento do levantamento das variáveis envolvidas.Não obstante, o
-                surgimento do comércio virtual faz parte de um processo de gerenciamento do levantamento das variáveis
-                envolvidas.
+              <p>Não obstante, o surgimento do comércio virtual faz parte de um processo de gerenciamento do
+                levantamento das variáveis envolvidas. Não obstante, o surgimento do comércio virtual faz parte de um
+                processo de gerenciamento do levantamento das variáveis envolvidas.Não obstante, o surgimento do
+                comércio virtual faz parte de um processo de gerenciamento do levantamento das variáveis envolvidas.Não
+                obstante, o surgimento do comércio virtual faz parte de um processo de gerenciamento do levantamento das
+                variáveis envolvidas.
               </p>
             </div>
 
-            <!-- Wolf ID -->
-            <div id="id-wolf-C" style="display:none"></div>
+            <div></div>
           </div>
         </div>
 
-        <div class="our-wolves-right">
-          <!-- Wolf Picture -->
+        <div>
           <div>
-            <img id="our-wolves-D-img" class="wolf-img-2" src="./assets/wolf-2.png" alt="">
+            <img src="./assets/wolf-2.png" alt="">
           </div>
 
-          <!-- Wolf Info 4 -->
-          <div class="name-age-adopt-description-right">
-            <div class="name-age-adopt">
-              <div>
-                <h3 id="our-wolves-D-name">Nome do Lobo</h3>
-                <p id="our-wolves-D-age" class="wolf-age">Idade: XX anos</p>
-              </div>
-
-              <!-- Button Adopt -->
-              <div>
-                <a href="show-wolf.html"><button>Adotar</button></a>
-              </div>
-            </div>
-
-            <!-- Wolf Description -->
+          <div>
             <div>
-              <p id="our-wolves-D-description" class="our-wolves-wolf-description">
-                Não obstante, o surgimento do comércio virtual faz parte de um processo de gerenciamento do levantamento
-                das variáveis envolvidas. Não obstante, o surgimento do comércio virtual faz parte de um processo de
-                gerenciamento do levantamento das variáveis envolvidas.Não obstante, o surgimento do comércio virtual
-                faz parte de um processo de gerenciamento do levantamento das variáveis envolvidas.Não obstante, o
-                surgimento do comércio virtual faz parte de um processo de gerenciamento do levantamento das variáveis
-                envolvidas.
-              </p>
+              <div>
+                <h3>Nome do Lobo</h3>
+                <p>Idade: XX anos</p>
+              </div>
+
+              <div>
+                <a href="./show-wolf.html"><button>Adotar</button></a>
+              </div>
             </div>
 
-            <!-- Wolf ID -->
-            <div id="id-wolf-D" style="display:none"></div>
+            <div>
+              <p>Não obstante, o surgimento do comércio virtual faz parte de um processo de gerenciamento do
+                levantamento das variáveis envolvidas. Não obstante, o surgimento do comércio virtual faz parte de um
+                processo de gerenciamento do levantamento das variáveis envolvidas.Não obstante, o surgimento do
+                comércio virtual faz parte de um processo de gerenciamento do levantamento das variáveis envolvidas.Não
+                obstante, o surgimento do comércio virtual faz parte de um processo de gerenciamento do levantamento das
+                variáveis envolvidas.</p>
+            </div>
+
+            <div></div>
           </div>
         </div>
 
-        <!-- Pagination -->
-        <div class="pagination">
+        <div>
           <ul>
             <li><a href="#">&lt;&lt;</a></li>
             <li><a href="#">1</a></li>
@@ -205,58 +176,69 @@
         </div>
       </div>
     </div>
-  </main>
+  </main> -->
 
   <!-- Footer -->
-  <footer>
-    <div class="footer container">
-      <!-- Map -->
-      <div class="map-address-about">
-        <div>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14700.7537673028!2d-43.1332584!3d-22.9064193!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfd5e35fb577af2f5!2sUFF%20-%20Instituto%20de%20Computa%C3%A7%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1620865540438!5m2!1spt-BR!2sbr"
-            width="250" height="168" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-
-        <div class="address-about">
+  <footer class="footer">
+    <div class="container flex column">
+      <div class="grid">
+        <!-- Location -->
+        <div class="flex">
+          <!-- Map -->
           <div>
-            <ul>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14700.7537673028!2d-43.1332584!3d-22.9064193!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfd5e35fb577af2f5!2sUFF%20-%20Instituto%20de%20Computa%C3%A7%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1620865540438!5m2!1spt-BR!2sbr"
+              width="250" height="168" style="border:0;" loading="lazy"></iframe>
+          </div>
+
+          <div class="footer-contact">
+            <ul class="flex column">
               <!-- Address -->
-              <div class="address-list">
+              <li class="flex">
                 <i class="fas fa-map-marker-alt"></i>
-                <li>Av. Milton Tavares de Souza, s/n - Sala 115 B - Boa Viagem, Niterói - RJ, 24210-315</li>
-              </div>
+                <span>Av. Milton Tavares de Souza, s/n - Sala 115 B - Boa Viagem, Niterói - RJ, 24210-315</span>
+              </li>
 
               <!-- Phone -->
-              <div class="address-list">
+              <li class="flex">
                 <i class="fas fa-phone-alt"></i>
-                <li> (99) 99999-9999</li>
-              </div>
+                <span> (99) 99999-9999</span>
+              </li>
 
-              <!-- E-mail -->
-              <div class="address-list">
+              <!-- Email -->
+              <li class="flex">
                 <i class="fas fa-envelope"></i>
-                <li> salve-lobos@lobINhos.com</li>
-              </div>
+                <span> salve-lobos@lobinhos.com</span>
+              </li>
+
+              <li>
+                <a href="./who-we-are.html" class="btn">Quem Somos</a>
+              </li>
             </ul>
           </div>
+        </div>
 
-          <!-- Who we are -->
-          <div class="footer-about">
-            <a href="who-we-are.html"><button class="text-2">Quem Somos</button></a>
-          </div>
+        <div class="">
+          <p>Desenvolvido com</p>
+          <img src="./assets/paws.svg" alt="Paw-love logo">
         </div>
       </div>
 
-      <div>
-        <p>Desenvolvido com</p>
-        <img src="./assets/paws.svg" alt="">
+      <!-- Credits -->
+      <div class="footer-credits flex center">
+        <p>
+          <span class="current_year"></span>
+          Design by <a href="https://injunior.com.br/" target="_blank">IN Junior</a> | Code by <a
+            href="https://github.com/rwsaraujo/" target="_blank">rwsaraujo</a>
+        </p>
       </div>
     </div>
   </footer>
 
-  <script src="js/our-wolves.js"></script>
-  <script src="js/adopt-wolf.js"></script>
+  <script>
+    // Footer
+    document.querySelector(".current_year").innerHTML = `${new Date().getFullYear()} - `;
+  </script>
 </body>
 
 </html>

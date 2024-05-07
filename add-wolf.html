@@ -13,124 +13,124 @@
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/965969d691.js" crossorigin="anonymous"></script>
   <!-- CSS -->
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/root.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="./css/style-compressed.css">
   <!-- JS -->
-  <script src="js/index.js" defer></script>
+  <script src="./js/index.js" defer></script>
+  <script src="./js/add-wolf.js" defer></script>
 </head>
 
-<body>
+<body class="flex column">
   <!-- Header -->
-  <header>
+  <header class="header">
     <nav class="container">
-      <ul>
-        <li><a class="text-3" href="our-wolves.html">Nossos Lobinhos</a></li>
-        <li><a class="text-3" href="index.html"><img src="./assets/adopt-a-wolf-logo.svg"
-              alt="Logo de Adote um Lobinho"></a></li>
-        <li><a class="text-3" href="who-we-are.html">Quem Somos</a></li>
+      <ul class="grid center">
+        <li><a href="./our-wolves.html">Nossos Lobinhos</a></li>
+        <li class="flex center"><a href="./index.html" id="logo"><img src="./assets/adopt-a-wolf-logo.svg"
+              alt="Logo de Adote um Lobinho."></a></li>
+        <li><a href="./who-we-are.html">Quem Somos</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
-    <!-- Add Wolf for Adoption -->
-    <div class="add-wolf-main container">
+  <!--   <main>
+    <div>
       <div>
-        <h2 class="title-h2">Coloque um Lobinho para Adoção</h2>
+        <h2>Coloque um Lobinho para Adoção</h2>
       </div>
 
       <div>
-        <!-- Form -->
-        <form action="our-wolves.html" class="add-wolf-form">
-          <div class="add-wolf-name-age">
-            <!-- Wolf name -->
-            <div class="add-wolf-name">
-              <label class="text-3" for="wolf-name">Nome do Lobinho:</label>
-              <br>
-              <input class="wolf-name" type="text">
+        <form action="./our-wolves.html">
+          <div>
+            <div>
+              <label for="">Nome do Lobinho:</label>
+              <input type="text">
             </div>
 
-            <!-- Wolf age -->
-            <div class="add-wolf-age">
-              <label class="text-3" for="wolf-age">Anos:</label>
-              <br>
-              <input class="wolf-age" type="text">
+            <div>
+              <label for="">Anos:</label>
+              <input type="text">
             </div>
           </div>
 
-          <!-- Wolf Picture -->
-          <div class="add-wolf-link-photo">
-            <label class="text-3" for="link-picture">Link da foto:</label>
-            <br>
-            <input class="link-picture" type="text">
+          <div>
+            <label for="">Link da foto:</label>
+            <input type="text">
           </div>
 
-          <!-- Wolf description -->
-          <div class="add-wolf-description">
-            <label class="text-3" for="wolf-description">Descrição:</label>
-            <br>
-            <textarea name="" class="wolf-description" cols="30" rows="10"></textarea>
-          </div>
-
-          <!-- Button -->
-          <div class="add-wolf-button">
-            <a href="our-wolves.html"><button class="text-2" type="submit">Salvar</button></a>
-          </div>
-        </form>
+          <div">
+            <label for="">Descrição:</label>
+            <textarea name="" cols="30" rows="10"></textarea>
       </div>
+
+      <div>
+        <a href="./our-wolves.html"><button type="submit">Salvar</button></a>
+      </div>
+      </form>
     </div>
-  </main>
+    </div>
+  </main> -->
 
   <!-- Footer -->
-  <footer>
-    <div class="footer container">
-      <!-- Map -->
-      <div class="map-address-about">
-        <div>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14700.7537673028!2d-43.1332584!3d-22.9064193!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfd5e35fb577af2f5!2sUFF%20-%20Instituto%20de%20Computa%C3%A7%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1620865540438!5m2!1spt-BR!2sbr"
-            width="250" height="168" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-
-        <div class="address-about">
+  <footer class="footer">
+    <div class="container flex column">
+      <div class="grid">
+        <!-- Location -->
+        <div class="flex">
+          <!-- Map -->
           <div>
-            <ul>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14700.7537673028!2d-43.1332584!3d-22.9064193!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfd5e35fb577af2f5!2sUFF%20-%20Instituto%20de%20Computa%C3%A7%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1620865540438!5m2!1spt-BR!2sbr"
+              width="250" height="168" style="border:0;" loading="lazy"></iframe>
+          </div>
+
+          <div class="footer-contact">
+            <ul class="flex column">
               <!-- Address -->
-              <div class="address-list">
+              <li class="flex">
                 <i class="fas fa-map-marker-alt"></i>
-                <li>Av. Milton Tavares de Souza, s/n - Sala 115 B - Boa Viagem, Niterói - RJ, 24210-315</li>
-              </div>
+                <span>Av. Milton Tavares de Souza, s/n - Sala 115 B - Boa Viagem, Niterói - RJ, 24210-315</span>
+              </li>
 
               <!-- Phone -->
-              <div class="address-list">
+              <li class="flex">
                 <i class="fas fa-phone-alt"></i>
-                <li> (99) 99999-9999</li>
-              </div>
+                <span> (99) 99999-9999</span>
+              </li>
 
-              <!-- E-mail -->
-              <div class="address-list">
+              <!-- Email -->
+              <li class="flex">
                 <i class="fas fa-envelope"></i>
-                <li> salve-lobos@lobINhos.com</li>
-              </div>
+                <span> salve-lobos@lobinhos.com</span>
+              </li>
+
+              <li>
+                <a href="./who-we-are.html" class="btn">Quem Somos</a>
+              </li>
             </ul>
           </div>
+        </div>
 
-          <!-- Who we are -->
-          <div class="footer-about">
-            <a href="who-we-are.html"><button class="text-2">Quem Somos</button></a>
-          </div>
+        <div class="">
+          <p>Desenvolvido com</p>
+          <img src="./assets/paws.svg" alt="Paw-love logo">
         </div>
       </div>
 
-      <div>
-        <p>Desenvolvido com</p>
-        <img src="./assets/paws.svg" alt="">
+      <!-- Credits -->
+      <div class="footer-credits flex center">
+        <p>
+          <span class="current_year"></span>
+          Design by <a href="https://injunior.com.br/" target="_blank">IN Junior</a> | Code by <a
+            href="https://github.com/rwsaraujo/" target="_blank">rwsaraujo</a>
+        </p>
       </div>
     </div>
   </footer>
 
-  <script src="js/add-wolf.js"></script>
+  <script>
+    // Footer
+    document.querySelector(".current_year").innerHTML = `${new Date().getFullYear()} - `;
+  </script>
 </body>
 
 </html>

@@ -1,587 +1,344 @@
-/* ========== General  ========== */
+/* ===== RESET ===== */
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  color: inherit;
+  background: transparent;
   text-decoration: none;
+  border: none;
+  list-style: none;
 }
 
-/* ========== Body  ========== */
-body {
-  max-width: 1400px;
-  color: white;
-  margin: 0 auto;
-}
+/* ===== ROOT ===== */
+:root {
+  /* ===== ROOT - COLORS ===== */
+  --white: #fff;
+  --black: #000;
+  --blue-1: #85cdf5;
+  --blue-2: #2c5680;
+  --gray-0: #e6e6e6;
+  --gray-1: #333;
+  --gray-2: #353535;
+  --yellow: #deb959;
+  --green: #7aac3a;
+  --red: #de5959;
 
-/* ========== Container ========== */
-.container {
-  width: 960px;
-  margin: 0 auto;
-}
-
-/* ========== Titles ========== */
-.title-h1 {
-  font-size: 96px;
-  font-weight: 400;
-}
-
-.title-h2 {
-  font-size: 48px;
-  font-weight: 400;
-}
-
-.title-h3 {
-  font-size: 32px;
-  font-weight: 400;
-}
-
-/* ========== Texts ========== */
-.text-1 {
+  /* ===== ROOT - TYPOGRAPHY ===== */
+  font-family: "Darker Grotesque", sans-serif;
   font-size: 16px;
-  font-weight: 400;
 }
 
-.text-2 {
-  font-size: 24px;
-  font-weight: 400;
+/* ==== USEFUL ===== */
+.container {
+  width: 100%;
+  max-width: 62rem; /* 960px + 16px(padding-left) + 16px(padding-right) */
+  margin: 0 auto;
+  padding: 0 1rem;
 }
-
-.text-3 {
-  font-size: 32px;
-  font-weight: 400;
-}
-
-/* ========== Header ========== */
-header {
-  height: 130px;
-  padding: 12px;
-  background-color: var(--blue-1);
-  color: var(--gray-1);
-}
-
-header ul {
+.flex {
   display: flex;
+}
+.grid {
+  display: grid;
+}
+.center {
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
 }
-
-header a {
-  color: var(--gray-1);
-}
-
-/* ========== Section Adopt ========== */
-.index-adopt-wolf {
-  background-image: url(../assets/wolf-banner.png);
-  background-size: cover;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.txt-center {
   text-align: center;
 }
-
-.index-adopt-wolf .title-h1 {
-  margin-bottom: 50px;
-}
-
-/* ========== Section About ========== */
-.index-about {
-  background-color: var(--blue-2);
-  height: 333px;
-  display: flex;
+.column {
   flex-direction: column;
-  justify-content: center;
-  text-align: center;
 }
-
-.index-about h2 {
-  color: var(--yellow);
-  margin-bottom: 20px;
-}
-
-.index-about p {
-  line-height: 32px;
-}
-
-/* ========== Section Values ========== */
-.index-values {
-  background-color: var(--gray-1);
-  height: 625px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-
-.index-values h2 {
-  color: var(--yellow);
-  margin-bottom: 40px;
-}
-
-.index-values h3 {
-  margin: 40px 0;
-}
-
-.index-each-value {
-  display: flex;
-  justify-content: space-around;
-}
-
-.index-each-value div {
-  width: 195px;
-  margin: 0 15px;
-}
-
-.index-each-value div img {
-  background-color: white;
+.rounded {
   border-radius: 50%;
 }
-
-/* ========== Section Wolves Example ========== */
-.index-wolf-example {
-  background-color: white;
-  color: black;
-}
-
-.index-wolf-example h2 {
-  color: var(--yellow);
-  text-align: center;
-  margin: 20px 0 60px 0;
-}
-
-.wolf-example {
-  display: flex;
-  margin: 30px 0;
-}
-
-.wolf-example div {
-  margin: 0 10px;
-}
-
-p.wolf-age {
-  margin: 5px 0;
-}
-
-.wolf-example-A,
-.wolf-example-B {
-  margin: 100px 0;
-}
-
-.class-row-reverse {
-  flex-direction: row-reverse;
-  text-align: right;
-}
-
-.wolf-img-1 {
-  box-shadow: -30px -30px var(--blue-2);
-  width: 430px;
-  height: 328px;
-}
-
-.wolf-img-2 {
-  box-shadow: 30px -30px var(--blue-2);
-  width: 430px;
-  height: 328px;
-}
-
-/* ========== Footer ========== */
-
-footer {
-  background-color: var(--gray-1);
-}
-
-.footer {
-  height: 270px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.map-address-about {
-  display: flex;
-}
-
-.address-about {
-  width: 378px;
-  margin-left: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.address-about ul {
-  display: flex;
-  flex-direction: column;
-}
-
-.address-about ul li {
-  margin-bottom: 25px;
-}
-
-.address-list {
-  display: flex;
-}
-
-.address-list li {
-  margin-left: 15px;
-}
-
-.footer-about button {
+.btn {
   background-color: var(--yellow);
   color: var(--gray-2);
-  line-height: 20px;
-  border: none;
-  padding: 2px 10px 7px 9px;
-}
-
-.footer-about button:hover {
-  cursor: pointer;
-  color: var(--yellow);
-  background-color: var(--gray-1);
+  font-size: 1.5rem;
+  font-weight: 600;
   border: 1px solid var(--yellow);
+  padding: 0.125rem 1rem;
+  transition: 0.2s;
+}
+.btn:hover {
+  background-color: transparent;
+  color: var(--yellow);
 }
 
-/* ========================================================= 
-================ PAGE OUR WOLVES ====================
-========================================================= */
-/* ========== Search ========== */
-.our-wolves-search {
-  margin: 40px 0;
-  display: flex;
+/* ===== GLOBAL ===== */
+body {
+  color: var(--white);
+  min-height: 100vh;
   justify-content: space-between;
 }
 
-.our-wolves-search input {
-  width: 808px;
-  height: 47px;
+/* ===== HEADER ===== */
+.header,
+.header nav.container,
+.header nav ul {
+  height: 9.625rem; /* 154px */
+  background-color: var(--blue-1);
 }
-
-.our-wolves-search button {
-  width: 130px;
-  height: 47px;
-  color: white;
-  background-color: var(--yellow);
-  border: none;
+.header nav ul {
+  grid-template-columns: 1fr 1fr 1fr;
 }
-
-.our-wolves-search button:hover {
-  cursor: pointer;
-  background-color: white;
-  color: var(--yellow);
-  border: 1px solid var(--yellow);
+.header nav ul li a {
+  font-size: 2rem;
+  color: var(--gray-1);
+  display: block;
 }
-
-/* ========== Wolves List ========== */
-.our-wolves-left {
-  color: black;
-  display: flex;
-  margin: 100px 0;
-}
-
-.our-wolves-right {
-  color: black;
-  display: flex;
-  flex-direction: row-reverse;
-  margin: 100px 0;
+.header nav ul li:nth-child(1) {
   text-align: right;
 }
+.header nav ul li a#logo {
+  margin: 0 1rem;
+}
+.header nav ul li a#logo img {
+  max-width: 100%;
+}
 
-.our-wolves-right .name-age-adopt {
+/* ===== MAIN ===== */
+.main {
+}
+
+/* ===== MAIN - ADOPT */
+.adopt {
+  height: 31.25rem; /* 500px */
+  background-image: url(../assets/wolf-banner.png);
+  background-position: center;
+  background-size: cover;
+}
+.adopt .container {
+  height: 100%;
+}
+.adopt .container h1 {
+  font-size: 6rem; /* 96px */
+  margin-bottom: 3.125rem; /* 50px */
+}
+.adopt .container p {
+  font-size: 2rem; /* 32px */
+  max-width: 41.875rem; /* 670px */
+}
+
+/* ===== MAIN - ADOPT - RESPONSIVE */
+@media screen and (max-width: 375px) {
+  .adopt .container h1 {
+    font-size: 4.5rem; /* 72px */
+    margin-bottom: 3.125rem; /* 50px */
+  }
+  .adopt .container p {
+    font-size: 1.5rem; /* 24px */
+  }
+}
+
+/* ===== MAIN - ABOUT ===== */
+.about {
+  background-color: var(--blue-2);
+}
+.about .container {
+  height: 100%;
+  gap: 2rem; /* 32px */
+  padding: 3rem 1rem; /* 48px 16px */
+}
+.about .container h2 {
+  font-size: 3rem; /* 48px */
+  color: var(--yellow);
+}
+.about .container p {
+  font-size: 1.5rem; /* 24px */
+}
+
+/* ===== MAIN - VALUES =====*/
+.values {
+  background-color: var(--gray-1);
+}
+.values .container {
+  padding: 3rem 1rem; /* 48px 16px */
+  gap: 2rem; /* 32px */
+}
+.values .container .grid {
+  grid-template-columns: repeat(auto-fit, minmax(12.5rem, 4fr)); /* 200px */
+  gap: 4rem 1rem; /* 64px 16px */
+}
+.values .container h2 {
+  font-size: 3rem; /* 48px */
+  color: var(--yellow);
+}
+.value-item {
+  align-items: center;
+  gap: 1rem; /* 16px */
+}
+.value-item div {
+  width: 7.5rem; /* 120px */
+}
+.value-item div img {
+  background-color: var(--white);
+}
+.value-item h3 {
+  font-size: 2rem; /* 32px */
+}
+.value-item p {
+  font-size: 1.5rem; /* 24px */
+}
+
+/* ===== MAIN - WOLVES ===== */
+.wolves {
+  padding: 3rem 1rem; /* 48px 16px */
+  color: var(--black);
+}
+.wolves .container {
+  gap: 2rem; /* 32px */
+}
+.wolves .container h2 {
+  font-size: 3rem; /* 48px */
+  color: var(--yellow);
+}
+.wolves .container > div > div.flex {
+  gap: 2rem; /* 32px */
+  padding: 2rem; /* 32px */
+}
+.wolf-txt {
+  gap: 1rem; /* 16px */
+}
+.wolf-txt div h3,
+.wolf-txt div h3 span {
+  font-size: 2rem; /* 32px */
+}
+.wolf-txt div:nth-child(2) p {
+  font-size: 1.5rem; /* 24px */
+}
+.wolves .container > div > div .wolf-img {
+  width: 51.77%; /* .wolf-img <= 430px - padding - gap = 398px */
+}
+.wolves .container > div > div .wolf-img img {
+  width: 100%;
+}
+.wolves .container > div > div .wolf-txt {
+  max-width: calc(100% - 51.77%);
+}
+
+/* ==== MAIN - WOLVES - LEFT */
+.wolves .container > div > div:nth-child(odd) .wolf-img img {
+  box-shadow: -2rem -2rem var(--blue-2); /* -32px -32px */
+}
+
+/* ==== MAIN - WOLVES - RIGHT */
+.wolves .container > div > div:nth-child(even) {
   display: flex;
   flex-direction: row-reverse;
 }
-
-.name-age-adopt-description-left {
-  margin-left: 40px;
+.wolves .container > div > div:nth-child(even) .wolf-img img {
+  box-shadow: 2rem -2rem var(--blue-2); /* 32px -32px */
 }
 
-.name-age-adopt-description-right {
-  margin-right: 40px;
+/* ===== MAIN = WOLVES - RESPONSIVE */
+@media screen and (max-width: 700px) {
+  .wolves {
+    padding: 3rem 0; /* 48px 0 */
+  }
+  .wolves .container > div > div.flex {
+    gap: 2rem; /* 32px */
+    padding: 1rem; /* 16px */
+  }
+  .wolves .container > div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; /* 32px */
+  }
+  .wolves .container > div > div.flex {
+    flex-direction: column;
+  }
+  .wolves .container > div > div .wolf-img,
+  .wolves .container > div > div .wolf-txt {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  /* ==== MAIN - WOLVES - LEFT */
+  .wolves .container > div > div:nth-child(odd) .wolf-img img {
+    box-shadow: -1rem -1rem var(--blue-2); /* -16px -16px */
+  }
+
+  /* ==== MAIN - WOLVES - RIGHT */
+  .wolves .container > div > div:nth-child(even) .wolf-img img {
+    box-shadow: 1rem -1rem var(--blue-2); /* 16px -16px */
+  }
 }
 
-.name-age-adopt {
-  display: flex;
+/* =====FOOTER ===== */
+.footer {
+  background-color: var(--gray-1);
+  padding: 3rem 1rem 0;
+}
+.footer .container {
+  gap: 2rem;
+}
+.footer .container .grid {
+  grid-template-columns: 3fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+.footer .container .grid > .flex {
+  gap: 2rem;
+}
+.footer .footer-contact ul {
+  height: 100%;
   justify-content: space-between;
+}
+.footer .footer-contact ul li {
+  gap: 0.5rem;
   align-items: center;
 }
 
-.name-age-adopt button {
-  font-size: 25px;
-  font-weight: 600;
-  background-color: var(--yellow);
-  color: white;
-  width: 157px;
-  height: 45.92px;
-  border: none;
+/* ===== FOOTER - RESPONSIVE ===== */
+@media screen and (max-width: 700px) {
+  .footer .container {
+    gap: 2rem;
+  }
+  .footer .container .grid {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footer .container .grid div.flex {
+    flex-direction: column;
+  }
+  .footer .container .grid div.flex div:first-child {
+    text-align: center;
+  }
+  .footer .container .footer-contact {
+    height: 200px;
+  }
+  .footer .container .footer-contact ul li {
+    text-align: center;
+    justify-content: center;
+  }
 }
 
-.name-age-adopt button:hover {
-  cursor: pointer;
-  background-color: white;
+/* ===== FOOTER - CREDITS ===== */
+.footer .footer-credits {
+  height: 30px;
+}
+.footer .footer-credits a {
+  text-decoration: underline;
+  transition: 0.2s;
+}
+.footer .footer-credits a:hover {
   color: var(--yellow);
-  border: 1px solid var(--yellow);
 }
-
-.our-wolves h3 {
-  font-size: 36px;
-  font-weight: 700;
-}
-
-p.our-wolves-wolf-description {
-  font-size: 24px;
-  font-weight: 400;
-}
-/* ========== Pagination ========== */
-.pagination {
-  display: flex;
-  justify-content: center;
-  margin: 30px 0;
-}
-
-.pagination ul {
-  display: flex;
-  text-align: center;
-}
-
-.pagination ul li {
-  margin: 0 10px;
-}
-
-.pagination ul a {
-  text-decoration: none;
-  color: black;
-  font-size: 18px;
-  font-weight: 400;
-}
-
-/* ========================================================= 
-========================= ADD WOLF =========================
-========================================================= */
-.add-wolf-main {
-  height: 874px;
-  margin: 50px auto 112px;
-  color: black;
-  border: 4px solid black;
-  box-sizing: border-box;
-  padding: 54px 98px 50px 98px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.add-wolf-main input,
-.add-wolf-main textarea {
-  border: 1px solid var(--gray-1);
-  background-color: var(--gray-0);
-}
-
-.add-wolf-main h2 {
-  text-align: center;
-}
-
-.add-wolf-form label,
-.add-wolf-form input,
-.add-wolf-form textarea {
-  margin: 15px 0;
-}
-
-.add-wolf-name-age {
-  display: flex;
-  justify-content: space-between;
-}
-
-.add-wolf-name input {
-  width: 564px;
-  height: 39px;
-}
-
-.add-wolf-age input {
-  width: 160px;
-  height: 39px;
-}
-
-.add-wolf-link-photo input {
-  width: 100%;
-  height: 39px;
-}
-
-.add-wolf-description textarea {
-  width: 100%;
-  height: 250px;
-}
-
-.add-wolf-button {
-  display: flex;
-  justify-content: center;
-}
-
-.add-wolf-button button {
-  width: 209px;
-  height: 60px;
-  border: none;
-  background-color: var(--blue-2);
-  color: white;
-}
-
-.add-wolf-button button:hover {
-  cursor: pointer;
-  background-color: white;
-  color: var(--blue-2);
-  border: 1px solid var(--blue-2);
-}
-
-/* ========================================================= 
-========================== SHOW WOLF =======================
-========================================================= */
-.show-wolf {
-  color: black;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.show-wolf-name h2 {
-  margin: 50px 0 83px;
-}
-
-.show-wolf-info {
-  display: flex;
-}
-
-.show-wolf-picture-action {
-  display: flex;
-  flex-direction: column;
-}
-
-.show-wolf-picture {
-  box-shadow: -30px -30px var(--blue-2);
-}
-
-.show-wolf-action {
-  display: flex;
-  justify-content: space-between;
-}
-
-.show-wolf-action button {
-  border: none;
-  width: 180px;
-  height: 56px;
-  margin: 51px 0 117px;
-  color: white;
-}
-
-.show-wolf-adopt button {
-  background-color: var(--green);
-}
-
-.show-wolf-adopt button:hover {
-  cursor: pointer;
-  background-color: white;
-  color: var(--green);
-  border: 1px solid var(--green);
-}
-
-.show-wolf-delete button {
-  background-color: var(--red);
-}
-
-.show-wolf-delete button:hover {
-  cursor: pointer;
-  background-color: white;
-  color: var(--red);
-  border: 1px solid var(--red);
-}
-
-.show-wolf-description p {
-  margin-left: 40px;
-  margin-bottom: 20px;
-  line-height: 20px;
-}
-
-/* =========================================================
-========================= ADOPT WOLF =======================
-========================================================= */
-.adopt-wolf {
-  color: black;
-}
-
-.adopt-wolf-picture-name {
-  display: flex;
-  margin: 100px 0 34px;
-}
-
-.adopt-wolf-picture-name img {
-  border-radius: 50%;
-  margin-right: 50px;
-}
-
-.adopt-wolf-form-name-age {
-  display: flex;
-  justify-content: space-between;
-}
-
-.adopt-wolf-form input {
-  width: 100%;
-  height: 40px;
-  border-top: none;
-  border-right: none;
-  border-bottom: 1px solid var(--gray-1);
-  border-left: none;
-}
-
-.adopt-wolf-form-name input {
-  width: 868px;
-  margin-bottom: 20px;
-}
-
-.adopt-wolf-form-age input {
-  width: 72px;
-}
-
-.adopt-wolf-form-email input {
-  margin-bottom: 50px;
-}
-
-.adopt-wolf-button {
-  display: flex;
-  justify-content: center;
-}
-
-.adopt-wolf-button button {
-  border: none;
-  background-color: var(--blue-3);
-  color: white;
-  width: 209px;
-  height: 60px;
-  margin-bottom: 50px;
-}
-
-.adopt-wolf-button button:hover {
-  cursor: pointer;
-  background-color: white;
-  color: var(--blue-2);
-  border: 1px solid var(--blue-2);
-}
-
-/* =========================================================
-====================== WHO WE ARE ==========================
-========================================================= */
-.who-we-are {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: black;
-}
-h2.title-h2 {
-  font-size: 48px;
-  font-weight: 400;
-  line-height: 48px;
-  height: 56px;
-  margin: 50px 0;
-}
-
-p.text-2 {
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 55%;
-  text-align: center;
-  margin-bottom: 60px;
+/* ===== FOOTER - CREDITS - RESPONSIVE ===== */
+@media screen and (max-width: 500px) {
+  .footer .footer-credits p,
+  .footer .footer-credits span,
+  .footer .footer-credits a {
+    font-size: 0.92rem; /* 14.72px */
+  }
 }
