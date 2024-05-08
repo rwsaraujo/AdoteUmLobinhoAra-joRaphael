@@ -254,7 +254,7 @@ body {
   box-shadow: 2rem -2rem var(--blue-2); /* 32px -32px */
 }
 
-/* ===== MAIN = WOLVES - RESPONSIVE */
+/* ===== MAIN - WOLVES - RESPONSIVE */
 @media screen and (max-width: 700px) {
   .wolves {
     padding: 3rem 0; /* 48px 0 */
@@ -388,4 +388,21 @@ body {
 }
 .our-wolves__pagination {
   gap: 1rem; /* 16px */
+}
+
+/* ########################### */
+/* ===== WHO WE ARE PAGE ===== */
+/* ########################### */
+.who-we-are {
+  color: var(--black);
+  gap: 1rem; /* 16px */
+  text-align: center;
+  padding: 2rem 1rem; /* 32px 16px */
+}
+.who-we-are h2 {
+  font-size: 3rem; /* 48px */
+}
+.who-we-are p {
+  max-width: 40rem; /* 640px */
+  font-size: 1.5rem; /* 24px */
 }
