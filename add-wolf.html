@@ -32,43 +32,41 @@
     </nav>
   </header>
 
-  <!--   <main>
-    <div>
-      <div>
+  <main class="add-wolf-main">
+    <div class="add-wolf container">
+      <div class="flex column center">
         <h2>Coloque um Lobinho para Adoção</h2>
-      </div>
 
-      <div>
-        <form action="./our-wolves.html">
-          <div>
-            <div>
-              <label for="">Nome do Lobinho:</label>
-              <input type="text">
+        <form action="./our-wolves.html" class="add-wolf__form flex column">
+          <div class="flex">
+            <div class="add-wolf__form__info">
+              <label for="wolf-name">Nome do Lobinho:</label>
+              <input type="text" id="wolf-name" name="wolf-name">
             </div>
 
-            <div>
-              <label for="">Anos:</label>
-              <input type="text">
+            <div class="add-wolf__form__info">
+              <label for="wolf-age">Idade:</label>
+              <input type="number" id="wolf-age" name="wolf-age" min="1" max="30">
             </div>
           </div>
 
-          <div>
-            <label for="">Link da foto:</label>
-            <input type="text">
+          <div class="add-wolf__form__info">
+            <label for="wolf-photo">Link da foto:</label>
+            <input type="text" id="wolf-photo" name="wolf-photo">
           </div>
 
-          <div">
-            <label for="">Descrição:</label>
-            <textarea name="" cols="30" rows="10"></textarea>
-      </div>
+          <div class="add-wolf__form__info">
+            <label for="wolf-description">Descrição:</label>
+            <textarea cols="30" rows="10" id="wolf-description" name="wolf-description"></textarea>
+          </div>
 
-      <div>
-        <a href="./our-wolves.html"><button type="submit">Salvar</button></a>
+          <div>
+            <input type="submit" class="btn-3">
+          </div>
+        </form>
       </div>
-      </form>
     </div>
-    </div>
-  </main> -->
+  </main>
 
   <!-- Footer -->
   <footer class="footer">
