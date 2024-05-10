@@ -1,0 +1,44 @@
+[
+  {
+    "id": "0001",
+    "link_image": "./assets/wolves/casanova.jpg",
+    "name": "Casanova",
+    "age": 9,
+    "description": "Reprehenderit reiciendis maiores itaque voluptatem provident alias. Doloremque maxime possimus ratione exercitationem nam cum dolorum sed saepe commodi, labore architecto ex expedita suscipit consequuntur quisquam blanditiis at eos voluptas veniam!"
+  },
+  {
+    "id": "0002",
+    "link_image": "./assets/wolves/spitfire.jpg",
+    "name": "Spitfire",
+    "age": 7,
+    "description": "Soluta necessitatibus unde facilis porro? Reprehenderit reiciendis maiores itaque voluptatem provident alias. Doloremque maxime possimus ratione exercitationem nam cum dolorum sed saepe commodi, labore architecto ex expedita suscipit consequuntur quisquam blanditiis at eos voluptas veniam!"
+  },
+  {
+    "id": "0003",
+    "link_image": "./assets/wolves/custer.jpg",
+    "name": "Custer",
+    "age": 8,
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quis fuga quod corporis vero nihil, soluta necessitatibus unde facilis porro?  Doloremque maxime possimus ratione exercitationem nam cum dolorum sed saepe commodi, labore architecto ex expedita suscipit consequuntur quisquam blanditiis at eos voluptas veniam!"
+  },
+  {
+    "id": "0004",
+    "link_image": "./assets/wolves/hexham.jpg",
+    "name": "Hexham",
+    "age": 9,
+    "description": "Voluptatibus quis fuga quod corporis vero nihil, soluta necessitatibus unde facilis porro? Reprehenderit reiciendis maiores itaque voluptatem provident alias. Doloremque maxime possimus ratione exercitationem nam cum dolorum sed saepe commodi, labore architecto ex expedita suscipit consequuntur quisquam blanditiis at eos voluptas veniam!"
+  },
+  {
+    "id": "0005",
+    "link_image": "./assets/wolves/romeo.jpg",
+    "name": "Romeo",
+    "age": 6,
+    "description": "Amet consectetur adipisicing elit. Voluptatibus quis fuga quod corporis vero nihil, soluta necessitatibus unde facilis porro? Reprehenderit reiciendis maiores itaque voluptatem provident alias. Labore architecto ex expedita suscipit consequuntur quisquam blanditiis at eos voluptas veniam!"
+  },
+  {
+    "id": "0006",
+    "link_image": "./assets/wolves/journey.jpg",
+    "name": "Journey",
+    "age": 11,
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quis fuga quod corporis vero nihil, soluta necessitatibus unde facilis porro? Reprehenderit reiciendis maiores itaque voluptatem provident alias. Doloremque maxime possimus ratione exercitationem nam cum dolorum sed saepe commodi."
+  }
+]
