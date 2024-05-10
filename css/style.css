@@ -49,6 +49,10 @@
   justify-content: center;
   align-items: center;
 }
+.center-v {
+  justify-content: initial;
+  align-items: center;
+}
 .space-between {
   justify-content: space-between;
 }
@@ -109,6 +113,10 @@
 .btn-dont-adopt:hover {
   background-color: transparent;
   color: var(--red);
+}
+input::placeholder,
+textarea::placeholder {
+  color: rgba(0, 0, 0, 0.3);
 }
 
 /* ===== GLOBAL ===== */
@@ -572,5 +580,67 @@ input.btn-3:hover {
   .show-wolf div.flex p {
     font-size: 1.5rem; /* 24px */
     max-width: 100%;
+  }
+}
+
+/* ########################### */
+/* ===== ADOPT WOLF PAGE ===== */
+/* ########################### */
+.adopt-wolf {
+  color: var(--black);
+  padding: 3rem 1rem; /* 48px 16px */
+}
+.adopt-wolf.container.flex.column,
+.adopt-wolf .flex.center-v,
+.adopt-wolf__form {
+  gap: 2rem; /* 32px */
+}
+.adopt-wolf__id,
+.adopt-wolf__name-age,
+.adopt-wolf__input {
+  gap: 1rem; /* 16px */
+}
+.adopt-wolf__id h1,
+.adopt-wolf__input label {
+  font-size: 2rem; /* 32px */
+}
+.adopt-wolf__avatar {
+  width: 12.5rem; /* 200px */
+  height: 12.5rem; /* 200px */
+  background: url(../assets/wolf-1.png) center;
+  background-size: cover;
+}
+.adopt-wolf__name-age div:first-child {
+  width: 100%;
+  max-width: 80%;
+}
+.adopt-wolf__name-age div:last-child {
+  width: 100%;
+  max-width: 20%;
+}
+.adopt-wolf__input input {
+  font-size: 2rem; /* 32px */
+  border-bottom: 1px solid var(--black);
+  padding: 0.25rem; /* 4px */
+}
+
+/* ===== ADOPT WOLF PAGE - RESPONSIVE ===== */
+@media screen and (max-width: 600px) {
+  .adopt-wolf__avatar {
+    width: 9.375rem; /* 150px */
+    height: 9.375rem; /* 150px */
+  }
+  .adopt-wolf__id h1 {
+    font-size: 1.25rem; /* 20px */
+  }
+  .adopt-wolf__input label,
+  .adopt-wolf__input input {
+    font-size: 1rem; /* 16px */
+  }
+}
+@media screen and (max-width: 400px) {
+  .adopt-wolf__avatar {
+    width: 6.25rem; /* 100px */
+    height: 6.25rem; /* 100px */
   }
 }

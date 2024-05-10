@@ -32,51 +32,41 @@
     </nav>
   </header>
 
-  <!--   <main>
-    <div>
-      <div>
-        <div>
-          <img src="./assets/wolf-1.png" alt="" width="200" height="200">
+  <!-- Main -->
+  <main>
+    <div class="adopt-wolf container flex column">
+      <div class="flex center-v">
+        <div class="adopt-wolf__avatar rounded">
         </div>
-        <div>
-          <div>
-            <h2>Adote o(a) nome do Lobo</h2>
-          </div>
-          <div>
-            <p>ID: 314149</p>
-          </div>
+
+        <div class="adopt-wolf__id flex column">
+          <h1>Adote o(a) Lobo(a)</h1>
+          <span>ID: 314149</span>
         </div>
       </div>
 
-      <form action="our-wolves.html">
-        <div>
-          <div>
-            <div>
-              <label for="person-name">Seu nome:</label>
-              <br>
-              <input type="text">
-            </div>
-
-            <div>
-              <label for="person-age">Idade:</label>
-              <br>
-              <input type="text">
-            </div>
+      <form action="./our-wolves.html" class="adopt-wolf__form flex column">
+        <div class="adopt-wolf__name-age flex">
+          <div class="adopt-wolf__input flex column">
+            <label for="adopt-wolf__name">Seu nome:</label>
+            <input type="text" id="adopt-wolf__name" name="adopt-wolf__name" placeholder="Ex.: José Silva">
           </div>
 
-          <div>
-            <label for="person-email">E-mail:</label>
-            <br>
-            <input type="text">
+          <div class="adopt-wolf__input flex column">
+            <label for="adopt-wolf__age">Idade:</label>
+            <input type="number" id="adopt-wolf__age" name="adopt-wolf__age" min="1" max="120" placeholder="Ex.: 20">
           </div>
         </div>
 
-        <div>
-          <a href="./our-wolves.html"><button type="submit">Adotar</button></a>
+        <div class="adopt-wolf__input flex column">
+          <label for="adopt-wolf__email">E-mail:</label>
+          <input type="email" id="adopt-wolf__email" name="adopt-wolf__email" placeholder="Ex.: josesilva@email.com">
         </div>
+
+        <input type="submit" class="adopt-wolf__submit btn-3" value="Adotar">
       </form>
     </div>
-  </main> -->
+  </main>
 
   <!-- Footer -->
   <footer class="footer">

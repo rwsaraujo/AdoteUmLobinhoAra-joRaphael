@@ -32,6 +32,7 @@
     </nav>
   </header>
 
+  <!-- Main -->
   <main class="add-wolf-main">
     <div class="add-wolf container">
       <div class="flex column center">
@@ -41,27 +42,28 @@
           <div class="flex">
             <div class="add-wolf__form__info">
               <label for="wolf-name">Nome do Lobinho:</label>
-              <input type="text" id="wolf-name" name="wolf-name">
+              <input type="text" id="wolf-name" name="wolf-name" placeholder="Timber">
             </div>
 
             <div class="add-wolf__form__info">
               <label for="wolf-age">Idade:</label>
-              <input type="number" id="wolf-age" name="wolf-age" min="1" max="30">
+              <input type="number" id="wolf-age" name="wolf-age" min="1" max="30" placeholder="14">
             </div>
           </div>
 
           <div class="add-wolf__form__info">
             <label for="wolf-photo">Link da foto:</label>
-            <input type="text" id="wolf-photo" name="wolf-photo">
+            <input type="text" id="wolf-photo" name="wolf-photo" placeholder="https://wwww.fotodolobo.com">
           </div>
 
           <div class="add-wolf__form__info">
             <label for="wolf-description">Descrição:</label>
-            <textarea cols="30" rows="10" id="wolf-description" name="wolf-description"></textarea>
+            <textarea cols="30" rows="10" id="wolf-description" name="wolf-description"
+              placeholder="Um lobo muito sagaz..."></textarea>
           </div>
 
           <div>
-            <input type="submit" class="btn-3">
+            <input type="submit" class="btn-3" value="Salvar">
           </div>
         </form>
       </div>
