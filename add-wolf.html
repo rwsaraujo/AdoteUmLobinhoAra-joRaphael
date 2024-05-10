@@ -15,8 +15,6 @@
   <!-- CSS -->
   <link rel="stylesheet" href="./css/style-compressed.css">
   <!-- JS -->
-  <script src="./js/index.js" defer></script>
-  <script src="./js/add-wolf.js" defer></script>
 </head>
 
 <body class="flex column">
@@ -38,7 +36,7 @@
       <div class="flex column center">
         <h2>Coloque um Lobinho para Adoção</h2>
 
-        <form action="./our-wolves.html" class="add-wolf__form flex column">
+        <form action="./our-wolves.html" class="add-wolf__form flex column" id="add-wolf-form">
           <div class="flex">
             <div class="add-wolf__form__info">
               <label for="wolf-name">Nome do Lobinho:</label>
@@ -52,8 +50,8 @@
           </div>
 
           <div class="add-wolf__form__info">
-            <label for="wolf-photo">Link da foto:</label>
-            <input type="text" id="wolf-photo" name="wolf-photo" placeholder="https://www.fotodolobo.com">
+            <label for="wolf-image-link">Link da foto:</label>
+            <input type="text" id="wolf-image-link" name="wolf-image-link" placeholder="https://www.fotodolobo.com">
           </div>
 
           <div class="add-wolf__form__info">
