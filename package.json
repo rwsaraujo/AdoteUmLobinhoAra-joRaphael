@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch css/style.css css/style-compressed.css --style compressed"
+    "sass": "sass --watch css/style.css css/style-compressed.css --style compressed",
+    "uglifyjs": "uglifyjs js/index.js -c -o js/index-compressed.js"
   },
   "author": "rwsaraujo",
   "license": "ISC",
   "devDependencies": {
-    "sass": "^1.77.0"
+    "sass": "^1.77.0",
+    "uglify-js": "^3.17.4"
   }
 }

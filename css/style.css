@@ -260,7 +260,7 @@ body {
 .a-wolf .wolf-txt div h3 span {
   font-size: 2rem; /* 32px */
 }
-.a-wolf .wolf-txt div:nth-child(2) p {
+.a-wolf .wolf-txt p {
   font-size: 1.5rem; /* 24px */
 }
 .a-wolf .wolf-img {
