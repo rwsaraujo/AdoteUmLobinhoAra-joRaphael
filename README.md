@@ -25,10 +25,9 @@ This is a solution for [IN Junior's](https://injunior.com.br/) Lobinhos project.
 
 ### Built with
 
-- HTML5
-- CSS3
-- CSS3 Flex Box
-- CSS3 Grid Layout
+- HTML
+- CSS Flex Box
+- CSS Grid Layout
 - JavaScript
 
 ## Author
