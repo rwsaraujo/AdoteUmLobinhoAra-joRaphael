@@ -33,4 +33,4 @@ This is a solution for [IN Junior's](https://injunior.com.br/) Lobinhos project.
 
 ## Author
 
-- Website - [rwsaraujo](https://github.com/rwsaraujo)
+- GitHub - [rwsaraujo](https://github.com/rwsaraujo)
