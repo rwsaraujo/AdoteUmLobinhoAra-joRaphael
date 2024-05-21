@@ -159,7 +159,7 @@ body {
 /* ===== MAIN - ADOPT */
 .adopt {
   height: 31.25rem; /* 500px */
-  background-image: url(../assets/wolf-banner.png);
+  background-image: url(../assets/wolf-banner.jpg);
   background-position: center;
   background-size: cover;
 }
